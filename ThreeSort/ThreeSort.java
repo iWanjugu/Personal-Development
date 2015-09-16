@@ -15,3 +15,13 @@
 // Example:
 // ThreeSort.threeSort(9,4,6); // [4,6,9]
 // ThreeSort.threeSort(3,2,1); // [1,2,3]
+
+class ThreeSort {
+	public static void main (String args[]){
+	
+		//create an object with class Sort
+	Sort Three = new Sort();
+	Three.threeSort(); //apply method threeSort to new object
+	}
+}
+
