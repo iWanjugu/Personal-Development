@@ -5,9 +5,63 @@
 # no punctuation or numbers.
 # For example: if str is "xooxxxxooxo" then the output should return false because there are 6 x's and 5 o's.
 
+
+
+#my own tests
+"""
+str = "xoxxoo"
+x = []
+
+for i in str:
+    i = len(x)
+    while i < len(str):
+        x.append(str[i:1+i])
+        print (x)
+        i += 1
+
+print(x)
+
+print(len(str))
+print(len(x))
+
+z = x.count("x")
+q = x.count("o")
+print(z)
+print(q)
+
+i = 0
+
+for i < len(x) in str:
+    print(i)
+    i += 1
+"""
+
+############## XOXO FUNCTION
+xo = []
 def xoxo(str):
-  # code goes here
+
+    for i in str:
+        i = len(xo)
+        while i < len(str):
+            xo.append(str[i:1+i])
+            i += 1
+            # print (xo)
+            count_x = xo.count("x")
+            count_o = xo.count("o")
+            # print (count_x)
+            # print (count_o)
+    print ("The number of 'x's is: ", count_x)
+    print ("The number of 'o's is: ", count_o)
+
+    if (count_o == count_x):
+        print ("TRUE")
+    else:
+        print("FALSE")
+
+print (xoxo("xoxxooxoo"))
+
+
 
 
 # keep the function call
-print Xoxo("have fun..xoxo")
+#print xoxo("have fun..xoxo")
