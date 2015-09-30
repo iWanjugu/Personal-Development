@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../capitalize_python/.idea/capitalize_python.iml" filepath="$PROJECT_DIR$/../capitalize_python/.idea/capitalize_python.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/gigasecond.iml" filepath="$PROJECT_DIR$/.idea/gigasecond.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../paren_matcher/.idea/paren_matcher.iml" filepath="$PROJECT_DIR$/../paren_matcher/.idea/paren_matcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../swapie/.idea/swapie.iml" filepath="$PROJECT_DIR$/../swapie/.idea/swapie.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../xoxo/.idea/xoxo.iml" filepath="$PROJECT_DIR$/../xoxo/.idea/xoxo.iml" />
     </modules>
   </component>
 </project>

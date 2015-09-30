@@ -4,5 +4,9 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="swapie" />
+    <orderEntry type="module" module-name="paren_matcher" />
+    <orderEntry type="module" module-name="xoxo" />
+    <orderEntry type="module" module-name="capitalize_python" />
   </component>
 </module>
