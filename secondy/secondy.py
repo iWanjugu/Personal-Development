@@ -3,8 +3,13 @@
 # For example: if lis contains [7, 7, 12, 98, 106] the output should be 12 98.
 # The list will not be empty and will contain at least 2 numbers. It can get tricky if there's just two numbers!
 
+#SECONDY 1
+def Secondy1(lis):
 
-def Secondy(lis):
+    #Extract Ducpicates
+
+
+    ##################
 
     list = sorted(lis)
 
@@ -20,8 +25,25 @@ def Secondy(lis):
     print (y)
 
 # keep this function call below here
-lis = [3,66,73,93,2,5]
-Secondy (lis)
+lis = [7, 7, 12, 98, 106]
+Secondy1 (lis)
 
-# # x = x.append(second_last)
-# # print (x)
+
+# SECONDY 2
+
+def Secondy2(lis):
+    lis = [7, 7, 12, 98, 106]
+
+    #remove duplicates
+    lis = set(lis)
+    list = sorted(lis)
+
+    #getting second number
+    second = list[1]
+
+    #getting second last number
+    second_last = list [-2]
+
+    print second,second_last
+
+Secondy2 (lis)
