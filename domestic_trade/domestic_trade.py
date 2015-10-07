@@ -28,8 +28,73 @@
 
 # If we enter 'DM1182', you program should return:
 # {:total_KSH=> 13290, :largest=> 'Nairobi'}.
+#
+# def domestic_trade(itemId):
+#   # Your Code Here!
+#
+# domestic_trade("DM1724")
 
-def domestic_trade(itemId):
-  # Your Code Here!
+#Working with csv files
+#import csv
+import csv
 
-domestic_trade("DM1724")
+#opening file
+f = open('TRANS.csv')
+
+csv_f = csv.reader(f) #csv file object
+
+# #printing all rows
+# for row in csv_f:
+#     print row #every row is a list
+
+# #printing just store names
+# for row in csv_f:
+#     print row[0] #every row is a list
+#
+
+# #printing just item codes
+# for row in csv_f:
+#     print row[1]
+#
+
+##########################
+#Total for particular item
+
+#Get item details
+
+item_no = "DM1724"
+item_details = []
+location = []
+item = []
+amount = []
+
+for row in csv_f:
+    if row[1] == item_no:
+        location.append(row[0])
+        item.append(row[1])
+        amount.append(row[2][:-4]) #removing  'KSH' from amount
+
+# print(len (location))
+# print(len (item))
+# print(len (amount))
+
+set_location = set(location)
+set_item = set(item)
+set_amount = set(amount)
+
+print(set_location)
+print(set_item)
+print(set_amount)
+
+### combining the above
+# print item_details
+# print (len(item_details))
+
+#finding total
+
+for amt in amount:
+    total_amount = sum(int(amt))
+print (total_amount)
+
+#closing the file
+f.close()
