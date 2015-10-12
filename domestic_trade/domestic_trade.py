@@ -51,8 +51,10 @@ csv_f = csv.reader(f) #csv file object
 location = []
 item = []
 amount = []
-item_no = raw_input('Enter the item Number: ')
-item_no = str(item_no.upper())
+# item_no = raw_input('Enter the item Number: ')
+# item_no = str(item_no.upper())
+
+item_no = "DM1724"
 
 for row in csv_f:
     if row[1] == item_no:
@@ -70,8 +72,10 @@ print ("Total value sold for item number %s is %s" %(item_no, total_KSH))
 
 
 # Finding total value (KSH) of particular item sold in ONE location
-store_location = raw_input('Enter the store location: ')
-store_location = store_location.lower().capitalize()
+# store_location = raw_input('Enter the store location: ')
+# store_location = store_location.lower().capitalize()
+
+store_location = "Nairobi"
 
 tot_store_amt = 0
 
@@ -82,12 +86,43 @@ for i in loc:
     tot_store_amt = tot_store_amt + amount[i]
 print ("Total value sold for stores in %s is %s"  %(store_location, tot_store_amt))
 
+# Finding largest selling store
+locations = set(location)
+locations = list(locations)
+print(locations)
+print(len(locations))
+print(len(location))
+
+tot_li = []
+tot_loc_li = []
+for stuff in locations:
+    amn_li = []
+    tot = 0
+    locs = (i for i,x in enumerate(location) if x == stuff)
+    for i in locs:
+        tot = tot + amount[i]
+        amn_li = amn_li + [amount[i]]
+    print ("Total for %s is %s" %(stuff, tot))
+    print("Number of Records for %s is %s" %(stuff, len(amn_li)))
+
+    tot_li = tot_li + [tot]
+print(tot_li)
+
+# Finding greatest Number
+great = (i for i,x in enumerate(tot_li) if x == max(tot_li))
+for i in great:
+    print ("Location with greates Sales is %s" % (locations[i]))
 
 
-#---------------------------------------------------------------------------#
-#-----  Checks ----#
+
+#
+# #---------------------------------------------------------------------------
+# #-----  Checks ----#
 # # For Nairobi
 # amn_nai_li = []
+# amt_nai = 0
+#
+# Nai = (i for i,x in enumerate(location) if x == "Nairobi")
 # for i in Nai:
 #     # print (i) #indexes for where Nairobi stores occur in list
 #     # Number of records for Nairobi
@@ -96,14 +131,14 @@ print ("Total value sold for stores in %s is %s"  %(store_location, tot_store_am
 #     #Total Salesfrom Nairobi stores
 #     amt_nai = amt_nai + amount[i]
 #
-#     print (amt_nai)
+#     # print (amt_nai)
 #
 #
 # # No. of records for item
 # print (len(location))
 # print (len (amn_nai_li))
-
-
+#
+#
 
 
 #closing the file
