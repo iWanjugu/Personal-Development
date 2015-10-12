@@ -67,34 +67,95 @@ item_details = []
 location = []
 item = []
 amount = []
+details = ""
 
 for row in csv_f:
     if row[1] == item_no:
         location.append(row[0])
         item.append(row[1])
-        amount.append(row[2][:-4]) #removing  'KSH' from amount
+        amount.append(int(row[2][:-4])) #removing  'KSH' from amount
+        details = [row[0], row[1], int(row[2][:-4])]
+    # var = details[0:1] + details[2:3]
+    # print (var)
+    # print (var[2:3])
+
+print (location)
+print (amount)
+
+N = (i for i,x in enumerate(location) if x == 'Nairobi') #list comprehension
+for i in N:
+    # print (i)
+    for a in amount:
+        print (amount[i])
+
+        # tot_Nai =+ amount[i]
+    # print (tot_Nai)
+
+
+
+
+# Finding sum of Nairobi Stores
+# for row in csv_f:
+#     if row[0] == "Nairobi":
+#         Nai_Tot += int(row[2][:-4]))
+#         print (Nai_Tot)
+
+# i <= len(location)
+# for x in location:
+#     item_details = x + item([i]) + amount([i])
+# print(len (location))
+# print(len (item))
+# print(len (amount))
+# print (amount)
+
+#
+# print (set_location = set(location))
+# print (set_item = set(item))
+# print (set_amount = set(amount))
+
+# #Finding total KSH
+# total_KSH = 0
+#
+# for amt in amount:
+#     total_KSH += amt
+# print (total_KSH)
+#
+
+#Finding store with most sales
+
+### combining the above
 
 # print(len (location))
 # print(len (item))
 # print(len (amount))
 
-set_location = set(location)
-set_item = set(item)
-set_amount = set(amount)
+# item_details = []
+#
+#
+# # Finding sum of Nairobi Stores
+# for row in csv_f:
+#     if row[0] == "Nairobi":
+#         Nai_Tot += int(row[2][:-4]))
+#         print (Nai_Tot)
+#
+# # i <= len(location)
+# # for x in location:
+# #     item_details = x + item([i]) + amount([i])
+#
+#
+# item_details = location + item + amount
+# print (item_details)
+#
+#
 
-print(set_location)
-print(set_item)
-print(set_amount)
-
-### combining the above
-# print item_details
+# print (item_details)
 # print (len(item_details))
 
-#finding total
 
-for amt in amount:
-    total_amount = sum(int(amt))
-print (total_amount)
+
+
+
+
 
 #closing the file
 f.close()
