@@ -13,51 +13,37 @@
 #
 # You should return `nil` on invalid input.
 
+
 def translateRomanNumeral(rn):
 
     RN = rn.upper()
-    first = RN [0:1]
-    second = RN [1:2]
 
-    rom_num = [I, V, X, L, C, M] = [1, 5, 10, 50, 100, 1000]
-    var = ""
-    var2 = ""
+    num_li = []
+    for letter in RN:
+        if letter=='I':
+            var = 1
+        elif letter=='V':
+            var = 5
+        elif letter=='X':
+            var = 10
+        elif letter=='L':
+            var = 50
+        elif letter=='C':
+            var = 100
+        elif letter=='M':
+            var = 1000
 
-    def init(first, second):
+        num_li = num_li + [var]
 
-        for num in rom_num:
-            if first == num:
-                var = num
-            elif second == num:
-                var2 = num
+    if len(rn) != 2:
+        print ('nil')
+    if len(rn) == 2:
+        if num_li[0] < num_li[1]:
+            ans = num_li[1] - num_li[0]
+        elif num_li[0] > num_li[1] or num_li[0] == num_li[1]:
+            ans = num_li[1] + num_li[0]
+        else:
+            ans = 'nil'
+        print(ans)
 
-            if first < second:
-                ans = var2 - var
-            elif first > second | first == second:
-                ans = var + var2
-
-    print (ans)
-
-translateRomanNumeral ("ix")
-
-
-# print(rom_num)
-# print(I+X)
-#
-# for var in RN:
-#     var = rom_num[var]
-#
-#
-
-# ## Converting numerals to numbers
-# for letter in rom_num:
-#     list = []
-#
-#
-#
-# ## The Calculation
-# if first < second:
-#     ans = first - second
-# else:
-#     ans = first + second
-#    if RN
+translateRomanNumeral("mx")
