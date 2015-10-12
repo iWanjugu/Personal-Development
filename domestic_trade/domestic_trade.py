@@ -43,116 +43,65 @@ f = open('TRANS.csv')
 
 csv_f = csv.reader(f) #csv file object
 
-# #printing all rows
-# for row in csv_f:
-#     print row #every row is a list
-
-# #printing just store names
-# for row in csv_f:
-#     print row[0] #every row is a list
-#
-
-# #printing just item codes
-# for row in csv_f:
-#     print row[1]
-#
-
 ##########################
 #Total for particular item
 
-#Get item details
+#filtering out everything apart from the item we need 'item_no'
 
-item_no = "DM1724"
-item_details = []
 location = []
 item = []
 amount = []
-details = ""
+item_no = raw_input('Enter the item Number: ')
+item_no = str(item_no.upper())
 
 for row in csv_f:
     if row[1] == item_no:
         location.append(row[0])
         item.append(row[1])
         amount.append(int(row[2][:-4])) #removing  'KSH' from amount
-        details = [row[0], row[1], int(row[2][:-4])]
-    # var = details[0:1] + details[2:3]
-    # print (var)
-    # print (var[2:3])
-
-print (location)
-print (amount)
-
-N = (i for i,x in enumerate(location) if x == 'Nairobi') #list comprehension
-for i in N:
-    # print (i)
-    for a in amount:
-        print (amount[i])
-
-        # tot_Nai =+ amount[i]
-    # print (tot_Nai)
 
 
+#Finding total value (KSH) of particular item sold in ALL stores
+total_KSH = 0
+
+for amt in amount:
+    total_KSH += amt
+print ("Total value sold for item number %s is %s" %(item_no, total_KSH))
 
 
-# Finding sum of Nairobi Stores
-# for row in csv_f:
-#     if row[0] == "Nairobi":
-#         Nai_Tot += int(row[2][:-4]))
-#         print (Nai_Tot)
+# Finding total value (KSH) of particular item sold in ONE location
+store_location = raw_input('Enter the store location: ')
+store_location = store_location.lower().capitalize()
 
-# i <= len(location)
-# for x in location:
-#     item_details = x + item([i]) + amount([i])
-# print(len (location))
-# print(len (item))
-# print(len (amount))
-# print (amount)
+tot_store_amt = 0
 
+# Extracting indexes for 'store_location' stores
+loc = (i for i,x in enumerate(location) if x == store_location) #list comprehension
+for i in loc:
+    #Total Salesfrom stores
+    tot_store_amt = tot_store_amt + amount[i]
+print ("Total value sold for stores in %s is %s"  %(store_location, tot_store_amt))
+
+
+
+#---------------------------------------------------------------------------#
+#-----  Checks ----#
+# # For Nairobi
+# amn_nai_li = []
+# for i in Nai:
+#     # print (i) #indexes for where Nairobi stores occur in list
+#     # Number of records for Nairobi
+#     amn_nai_li = amn_nai_li + [amount[i]]
 #
-# print (set_location = set(location))
-# print (set_item = set(item))
-# print (set_amount = set(amount))
-
-# #Finding total KSH
-# total_KSH = 0
+#     #Total Salesfrom Nairobi stores
+#     amt_nai = amt_nai + amount[i]
 #
-# for amt in amount:
-#     total_KSH += amt
-# print (total_KSH)
-#
-
-#Finding store with most sales
-
-### combining the above
-
-# print(len (location))
-# print(len (item))
-# print(len (amount))
-
-# item_details = []
+#     print (amt_nai)
 #
 #
-# # Finding sum of Nairobi Stores
-# for row in csv_f:
-#     if row[0] == "Nairobi":
-#         Nai_Tot += int(row[2][:-4]))
-#         print (Nai_Tot)
-#
-# # i <= len(location)
-# # for x in location:
-# #     item_details = x + item([i]) + amount([i])
-#
-#
-# item_details = location + item + amount
-# print (item_details)
-#
-#
-
-# print (item_details)
-# print (len(item_details))
-
-
-
+# # No. of records for item
+# print (len(location))
+# print (len (amn_nai_li))
 
 
 
