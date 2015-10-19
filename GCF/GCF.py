@@ -7,14 +7,11 @@
 
 def divide(num1, num2):
     c = min (num1,num2)
-    cf= []
+    cf= 0
 
     for i in range(1,c+1):
         if num1%i==0 and num2%i==0:
-            cf += [i]
-            print (cf)
-        gcf = max(cf)
-
-        print (gcf)
+            cf = i
+    print (cf)
 
 divide(7,49)
