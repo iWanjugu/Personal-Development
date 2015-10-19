@@ -1,0 +1,52 @@
+// Using java, have the function divide(num1,num2)
+// take both parameters being passed and return the Greatest Common Factor.
+// That is, return the greatest number that evenly goes into both numbers with no remainder.
+// For example: 20 and 10 both are divisible by 1, 2, 5 and 10 so the output should be 10.
+// The range for both parameters will be from 1 to 10^3.
+
+
+//"""
+//def divide(num1, num2):
+//    c = min (num1,num2)
+//    cf= 0
+//
+//    for i in range(1,c+1):
+//        if num1%i==0 and num2%i==0:
+//            cf = i
+//    print (cf)
+//
+//divide(7,49)
+//"""
+
+
+import java.util.Scanner;
+
+public class GCF {
+    public static int divide(int num1, int num2){
+    	int c = Math.min(num1, num2);
+    	int cf = 0;
+    	
+    	for (i=1; i=c+1; i++){
+    		if num1%i==0 && num2%i==0 {
+              cf = i;
+    		}
+          return cf;
+          System.out.print(cf);
+    	}
+    	
+    }
+    public static void main (String args []){
+    	
+    	Scanner num = new Scanner (System.in);
+    	num1 = 0, num1 = 0; //initialize variables
+		
+		System.out.println ("Enter first num: ");
+		num1 = num.nextInt(); 
+		System.out.println ("Enter first num: ");
+		num2 = num.nextInt(); 
+		
+		cf = divide (num1, num2)
+    }
+}
+
+GCF
