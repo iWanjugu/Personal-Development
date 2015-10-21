@@ -96,3 +96,27 @@ print matrix5
 # # matrix5
 # [['p' 'q' 'r' 's' '7']
 #  ['w' 'x' 'y' 'z' '9']]
+
+
+# finding index of a value in matrix
+val = 'a'
+val_index = np.where(matrix4 == val)
+print (val_index) #index of value you're looking for
+
+#the y (column) index i,e the number of times the keypad will be pressed to get the desired letter/ number
+
+key_press = int (val_index[1]) + 1
+print (key_press)
+
+
+
+
+#
+# # Change to lowercase and string
+# input = "BoY"
+#
+# input = str(input.lower())
+# print (input)
+# #
+# for letter in input:
+#
