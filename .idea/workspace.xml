@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44340443-70f0-4405-b302-ed532b69f0b2" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remove_duplicate/remove_duplicate.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.projects/MaxMin/.markers.snap" afterPath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.projects/MaxMin/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" afterPath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.snap" afterPath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.projects/MaxMin/.syncinfo.snap" afterPath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.projects/MaxMin/.syncinfo.snap" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterPath="$PROJECT_DIR$/maximum_and_minimum/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py" afterPath="$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/remove_duplicate/remove_duplicate.py" afterPath="$PROJECT_DIR$/remove_duplicate/remove_duplicate.py" />
     </list>
     <ignored path="MS-4-ToyProblems.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +19,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/MS-4-ToyProblems$translate_roman_numeral.coverage" NAME="translate_roman_numeral Coverage Results" MODIFIED="1444636045357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/translate_roman" />
     <SUITE FILE_PATH="coverage/MS-4-ToyProblems$secondy.coverage" NAME="secondy Coverage Results" MODIFIED="1444120742606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/secondy" />
-    <SUITE FILE_PATH="coverage/MS-4-ToyProblems$remove_duplicate.coverage" NAME="remove_duplicate Coverage Results" MODIFIED="1445589699081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/remove_duplicate" />
+    <SUITE FILE_PATH="coverage/MS-4-ToyProblems$remove_duplicate.coverage" NAME="remove_duplicate Coverage Results" MODIFIED="1445611034809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/remove_duplicate" />
     <SUITE FILE_PATH="coverage/MS-4-ToyProblems$key_press.coverage" NAME="key_press Coverage Results" MODIFIED="1445425347887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/key_press" />
     <SUITE FILE_PATH="coverage/MS-4-ToyProblems$GCF.coverage" NAME="GCF Coverage Results" MODIFIED="1445244646392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GCF" />
     <SUITE FILE_PATH="coverage/MS-4-ToyProblems$grid_blast.coverage" NAME="grid_blast Coverage Results" MODIFIED="1445407612095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../CodeWars/Python" />
@@ -39,7 +34,28 @@
     <favorites_list name="MS-4-ToyProblems" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="remove_duplicate.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/remove_duplicate/remove_duplicate.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="domestic_trade_mine.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5216638">
+              <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,6 +87,7 @@
         <option value="$PROJECT_DIR$/../../CodeWars/Python/grid_blast.py" />
         <option value="$PROJECT_DIR$/key_press/key_press_mine.py" />
         <option value="$PROJECT_DIR$/key_press/key_press.py" />
+        <option value="$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py" />
         <option value="$PROJECT_DIR$/remove_duplicate/remove_duplicate.py" />
       </list>
     </option>
@@ -137,6 +154,34 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="MS-4-ToyProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MS-4-ToyProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MS-4-ToyProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="remove_duplicate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MS-4-ToyProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MS-4-ToyProblems" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domestic_trade" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -480,9 +525,9 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290398" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.346247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.346247" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26738608" sideWeight="0.49593496" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26634383" sideWeight="0.49593496" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -709,13 +754,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32315978">
-          <caret line="54" column="32" selection-start-line="54" selection-start-column="32" selection-end-line="54" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/capitalize/capitalize.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.10771993">
@@ -803,8 +841,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/remove_duplicate/remove_duplicate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3522505">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/domestic_trade/domestic_trade_mine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5216638">
+          <caret line="81" column="58" selection-start-line="81" selection-start-column="58" selection-end-line="81" selection-end-column="58" />
           <folding />
         </state>
       </provider>
