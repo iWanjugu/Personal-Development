@@ -29,15 +29,15 @@
 
 # Note: the 0 key handles spaces and outputs 0 when tapped twice.
 
-<<<<<<< HEAD
+
 # Write a function that can calculate the amount of button presses required for any phrase. Except for spaces, punctuation can be ignored.
 # Your function should accept both uppercase and lowercase letters and treat them the same.
-=======
+
 # Write a function that can calculate the amount of button presses
 # required for any phrase. Except for spaces, punctuation can be ignored.
 # Your function should accept both uppercase and lowercase letters and
 # treat them the same.
->>>>>>> e1e09342b550f52c74789669b097439f8513e5ca
+
 
 # Examples:
 
