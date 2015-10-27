@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+# Using PYTHON solve the problem below:
+>>>>>>> b1bfd92375205d7f1e60d6181d1d12d7d50ecb57
 
 # def removeDuplicates(string):
 # Your code here!
 
+<<<<<<< HEAD
 str = "bad boy"
 str_ = str.split()
 print str_
@@ -25,3 +30,7 @@ for num in q:
 # for i in str:
 #     print (i)
 #     print(str.count(i))
+=======
+def removeDuplicates(string):
+ 	# Your code here!
+>>>>>>> b1bfd92375205d7f1e60d6181d1d12d7d50ecb57
