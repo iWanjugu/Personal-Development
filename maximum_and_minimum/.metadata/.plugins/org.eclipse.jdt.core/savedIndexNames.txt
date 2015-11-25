@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+/home/wanjugu/Desktop/Projects/Toy Problems/MS-4-ToyProblems/maximum_and_minimum/.metadata/.plugins/org.eclipse.jdt.core
+2079447829.index
