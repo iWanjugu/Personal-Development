@@ -37,30 +37,37 @@ for i < len(x) in str:
 """
 
 ############## XOXO FUNCTION
-xo = []
+# xo = []
+# def xoxo(str):
+#
+#     for i in str:
+#         i = len(xo)
+#         while i < len(str):
+#             xo.append(str[i:1+i])
+#             i += 1
+#             # print (xo)
+#             count_x = xo.count("x")
+#             count_o = xo.count("o")
+#             # print (count_x)
+#             # print (count_o)
+#     print ("The number of 'x's is: ", count_x)
+#     print ("The number of 'o's is: ", count_o)
+#
+#     if (count_o == count_x):
+#         print ("TRUE")
+#     else:
+#         print("FALSE")
+#
+# print (xoxo("xoxxooxoo"))
+
 def xoxo(str):
-
-    for i in str:
-        i = len(xo)
-        while i < len(str):
-            xo.append(str[i:1+i])
-            i += 1
-            # print (xo)
-            count_x = xo.count("x")
-            count_o = xo.count("o")
-            # print (count_x)
-            # print (count_o)
-    print ("The number of 'x's is: ", count_x)
-    print ("The number of 'o's is: ", count_o)
-
-    if (count_o == count_x):
-        print ("TRUE")
+    str = str.lower()
+    if str.count("x")==str.count("o"):
+        print("TRUE")
     else:
-        print("FALSE")
+        print ("FALSE")
 
-print (xoxo("xoxxooxoo"))
-
-
+xoxo("XXoxOO")
 
 
 # keep the function call
